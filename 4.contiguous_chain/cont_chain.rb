@@ -1,4 +1,3 @@
-require 'profile'
 class Point
 	attr_accessor :x, :y, :line
 
@@ -14,19 +13,23 @@ class Grid
 	def initialize(width, height)
 		@width = width.to_i
 		@height = height.to_i
-		@grid = create_grid
+		@grd = Hash.new()
+		create_grid
 	end
 	def create_grid
-		@grid = Hash.new()
 		(1..@height).each do |y|
 			(1..@width).each do |x|
-				@grid[[x,y]] = Point.new(x,y) if $file[y].split('')[x-1].to_s == "x" 
+				@grd[[x,y]] = Point.new(x,y) if file_split(y)[x-1].to_s == "x"  
 			end
 		end
-		@grid
+	end
+	#split the file string into chars. caching used for speed.
+	def file_split(y)
+		@file_split_cache ||= {} #create empty hash if variable does not exist yet
+		@file_split_cache[y] ||= $file[y].scan(//)
 	end
 	def get(x,y)
-		@grid[[x,y]]
+		@grd[[x,y]]
 	end
 end
 
@@ -46,7 +49,8 @@ def contiguous_chain(path)
 	y = $file[0].split(' ').first.to_i
 	x = $file[0].split(' ').last.to_i
 	$g = Grid.new(x,y)
-
+	#$g.create_grid
+	
 	i = 1
 	(1..$g.height).each do |y|
 		(1..$g.width).each do |x|
