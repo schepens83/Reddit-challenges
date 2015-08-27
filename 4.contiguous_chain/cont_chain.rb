@@ -46,7 +46,7 @@ def set_line_and_search_and_set_neighbours(x,y, line)
 end
 
 def contiguous_chain(path)
-	$file = File.readlines(path)
+	$file = File.readlines(path.to_s)
 	$file.map! {|l| l.chomp}
 	y = $file[0].split(' ').first.to_i
 	x = $file[0].split(' ').last.to_i
@@ -65,5 +65,15 @@ def contiguous_chain(path)
 	end
 	i - 1
 end
-puts contiguous_chain("input/20.txt")
+
+file_input = File.readlines("files.txt")
+file_output = File.new("results.txt", "w")
+file_input.each do |i| 
+	file_output.puts "#{i.chomp.to_s} -> #{contiguous_chain(i.chomp)}"
+end
+file_output.close
+
+
+
+
 

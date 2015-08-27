@@ -1,0 +1,9 @@
+input/10.txt
+input/20.txt
+input/30.txt
+input/40.txt
+input/50.txt
+input/60.txt
+input/70.txt
+input/80.txt
+input/90.txt
