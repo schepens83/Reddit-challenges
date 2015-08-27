@@ -1,0 +1,2414 @@
+121861
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report: wall_time</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+
+      <tr>
+        <td>70170987150340</td>
+        <td><a href="#70170991451940">70170991451940</a></td>
+        <td>12.570636987686157</td>
+      </tr>
+
+    </table>
+    <!-- Methods Tables -->
+
+      <h2><a name="70170991451940">Thread 70170987150340, Fiber: 70170991451940</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>%Total</th>
+            <th>%Self</th>
+            <th>Total</th>
+            <th>Self</th>
+            <th>Wait</th>
+            <th>Child</th>
+            <th>Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+        <tbody>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.20</td>
+                   <td>0.20</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/3477609</td>
+                   <td class="method_name"><a href="#Grid_file_split_70170991451940">Grid#file_split</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>5.40</td>
+                   <td>1.80</td>
+                   <td>0.00</td>
+                   <td>3.60</td>
+                   <td>2477609/3477609</td>
+                   <td class="method_name"><a href="#Grid_get_70170991451940">Grid#get</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=34" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:34">34</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>44.50%</td>
+                 <td>15.88%</td>
+                 <td>5.59</td>
+                 <td>2.00</td>
+                 <td>0.00</td>
+                 <td>3.60</td>
+                 <td>3477609</td>
+                 <td class="method_name">
+                   <a name="Hash_[]_70170991451940">
+                      Hash#[]
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.58</td>
+                   <td>1.79</td>
+                   <td>0.00</td>
+                   <td>0.79</td>
+                   <td>2477609/2677167</td>
+                   <td class="method_name"><a href="#Array_hash_70170991451940">Array#hash</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>1.01</td>
+                   <td>0.67</td>
+                   <td>0.00</td>
+                   <td>0.35</td>
+                   <td>1037335/1037335</td>
+                   <td class="method_name"><a href="#Array_eql__70170991451940">Array#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.21</td>
+                   <td>0.15</td>
+                   <td>0.00</td>
+                   <td>0.06</td>
+                   <td>199558/2677167</td>
+                   <td class="method_name"><a href="#Hash_[]__70170991451940">Hash#[]=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.58</td>
+                   <td>1.79</td>
+                   <td>0.00</td>
+                   <td>0.79</td>
+                   <td>2477609/2677167</td>
+                   <td class="method_name"><a href="#Hash_[]_70170991451940">Hash#[]</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>22.25%</td>
+                 <td>15.46%</td>
+                 <td>2.80</td>
+                 <td>1.94</td>
+                 <td>0.00</td>
+                 <td>0.85</td>
+                 <td>2677167</td>
+                 <td class="method_name">
+                   <a name="Array_hash_70170991451940">
+                      Array#hash
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.85</td>
+                   <td>0.85</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>5354334/5354334</td>
+                   <td class="method_name"><a href="#Kernel_hash_70170991451940">Kernel#hash</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.06</td>
+                   <td>0.52</td>
+                   <td>0.00</td>
+                   <td>2.54</td>
+                   <td>1199558/2477609</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.44</td>
+                   <td>0.58</td>
+                   <td>0.00</td>
+                   <td>2.85</td>
+                   <td>1278051/2477609</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=44" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:44">44</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>51.67%</td>
+                 <td>8.73%</td>
+                 <td>6.49</td>
+                 <td>1.10</td>
+                 <td>0.00</td>
+                 <td>5.40</td>
+                 <td>2477609</td>
+                 <td class="method_name">
+                   <a name="Grid_get_70170991451940">
+                      Grid#get
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=33" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:33">33</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>5.40</td>
+                   <td>1.80</td>
+                   <td>0.00</td>
+                   <td>3.60</td>
+                   <td>2477609/3477609</td>
+                   <td class="method_name"><a href="#Hash_[]_70170991451940">Hash#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=34" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:34">34</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.85</td>
+                   <td>0.85</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>5354334/5354334</td>
+                   <td class="method_name"><a href="#Array_hash_70170991451940">Array#hash</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>6.80%</td>
+                 <td>6.80%</td>
+                 <td>0.85</td>
+                 <td>0.85</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>5354334</td>
+                 <td class="method_name">
+                   <a name="Kernel_hash_70170991451940">
+                      Kernel#hash
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>1.01</td>
+                   <td>0.67</td>
+                   <td>0.00</td>
+                   <td>0.35</td>
+                   <td>1037335/1037335</td>
+                   <td class="method_name"><a href="#Hash_[]_70170991451940">Hash#[]</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>8.07%</td>
+                 <td>5.31%</td>
+                 <td>1.01</td>
+                 <td>0.67</td>
+                 <td>0.00</td>
+                 <td>0.35</td>
+                 <td>1037335</td>
+                 <td class="method_name">
+                   <a name="Array_eql__70170991451940">
+                      Array#eql?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.35</td>
+                   <td>0.35</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2074670/2074670</td>
+                   <td class="method_name"><a href="#Numeric_eql__70170991451940">Numeric#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.40</td>
+                   <td>0.25</td>
+                   <td>0.00</td>
+                   <td>0.15</td>
+                   <td>798232/1798232</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=44" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:44">44</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.48</td>
+                   <td>0.30</td>
+                   <td>0.00</td>
+                   <td>0.18</td>
+                   <td>1000000/1798232</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>6.99%</td>
+                 <td>4.39%</td>
+                 <td>0.88</td>
+                 <td>0.55</td>
+                 <td>0.00</td>
+                 <td>0.33</td>
+                 <td>1798232</td>
+                 <td class="method_name">
+                   <a name="BasicObject_!__70170991451940">
+                      BasicObject#!=
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.33</td>
+                   <td>0.33</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1798232/1798232</td>
+                   <td class="method_name"><a href="#BasicObject____70170991451940">BasicObject#==</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.99</td>
+                   <td>0.54</td>
+                   <td>0.00</td>
+                   <td>0.45</td>
+                   <td>1000000/1000000</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>7.91%</td>
+                 <td>4.32%</td>
+                 <td>0.99</td>
+                 <td>0.54</td>
+                 <td>0.00</td>
+                 <td>0.45</td>
+                 <td>1000000</td>
+                 <td class="method_name">
+                   <a name="Grid_file_split_70170991451940">
+                      Grid#file_split
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=29" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:29">29</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.25</td>
+                   <td>0.25</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/1000</td>
+                   <td class="method_name"><a href="#String_scan_70170991451940">String#scan</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.20</td>
+                   <td>0.20</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/3477609</td>
+                   <td class="method_name"><a href="#Hash_[]_70170991451940">Hash#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/200558</td>
+                   <td class="method_name"><a href="#Hash_[]__70170991451940">Hash#[]=</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/1001002</td>
+                   <td class="method_name"><a href="#Array_[]_70170991451940">Array#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>158400/280261</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=41" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:41">41</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>4.83</td>
+                   <td>0.40</td>
+                   <td>0.00</td>
+                   <td>4.43</td>
+                   <td>121861/280261</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>38.43%</td>
+                 <td>3.16%</td>
+                 <td>4.83</td>
+                 <td>0.40</td>
+                 <td>0.00</td>
+                 <td>4.43</td>
+                 <td>280261</td>
+                 <td class="method_name">
+                   <a name="Object_set_line_and_search_and_set_neighbours_70170991451940">
+                     *Object#set_line_and_search_and_set_neighbours
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=38" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:38">38</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.44</td>
+                   <td>0.58</td>
+                   <td>0.00</td>
+                   <td>2.85</td>
+                   <td>1278051/2477609</td>
+                   <td class="method_name"><a href="#Grid_get_70170991451940">Grid#get</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=44" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:44">44</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.40</td>
+                   <td>0.25</td>
+                   <td>0.00</td>
+                   <td>0.15</td>
+                   <td>798232/1798232</td>
+                   <td class="method_name"><a href="#BasicObject_!__70170991451940">BasicObject#!=</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=44" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:44">44</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.10</td>
+                   <td>0.10</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>478316/1478317</td>
+                   <td class="method_name"><a href="#Fixnum_-_70170991451940">Fixnum#-</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=44" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:44">44</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.09</td>
+                   <td>0.09</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>478316/600177</td>
+                   <td class="method_name"><a href="#Fixnum_+_70170991451940">Fixnum#+</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=43" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:43">43</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.06</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>280261/1479819</td>
+                   <td class="method_name"><a href="#String____70170991451940">String#==</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=39" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:39">39</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>158400/280261</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=41" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:41">41</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.35</td>
+                   <td>0.35</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2074670/2074670</td>
+                   <td class="method_name"><a href="#Array_eql__70170991451940">Array#eql?</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.76%</td>
+                 <td>2.76%</td>
+                 <td>0.35</td>
+                 <td>0.35</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2074670</td>
+                 <td class="method_name">
+                   <a name="Numeric_eql__70170991451940">
+                      Numeric#eql?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.33</td>
+                   <td>0.33</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1798232/1798232</td>
+                   <td class="method_name"><a href="#BasicObject_!__70170991451940">BasicObject#!=</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.59%</td>
+                 <td>2.59%</td>
+                 <td>0.33</td>
+                 <td>0.33</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1798232</td>
+                 <td class="method_name">
+                   <a name="BasicObject____70170991451940">
+                      BasicObject#==
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.06</td>
+                   <td>0.06</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>280261/1479819</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=39" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:39">39</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.23</td>
+                   <td>0.23</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1199558/1479819</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.29%</td>
+                 <td>2.29%</td>
+                 <td>0.29</td>
+                 <td>0.29</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1479819</td>
+                 <td class="method_name">
+                   <a name="String____70170991451940">
+                      String#==
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1478317</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=66" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:66">66</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.10</td>
+                   <td>0.10</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>478316/1478317</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=44" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:44">44</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/1478317</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.21%</td>
+                 <td>2.21%</td>
+                 <td>0.28</td>
+                 <td>0.28</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1478317</td>
+                 <td class="method_name">
+                   <a name="Fixnum_-_70170991451940">
+                      Fixnum#-
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.25</td>
+                   <td>0.25</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/1000</td>
+                   <td class="method_name"><a href="#Grid_file_split_70170991451940">Grid#file_split</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>2.02%</td>
+                 <td>2.02%</td>
+                 <td>0.25</td>
+                 <td>0.25</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1000</td>
+                 <td class="method_name">
+                   <a name="String_scan_70170991451940">
+                      String#scan
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/200558</td>
+                   <td class="method_name"><a href="#Grid_file_split_70170991451940">Grid#file_split</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.42</td>
+                   <td>0.21</td>
+                   <td>0.00</td>
+                   <td>0.21</td>
+                   <td>199558/200558</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>3.36%</td>
+                 <td>1.66%</td>
+                 <td>0.42</td>
+                 <td>0.21</td>
+                 <td>0.00</td>
+                 <td>0.21</td>
+                 <td>200558</td>
+                 <td class="method_name">
+                   <a name="Hash_[]__70170991451940">
+                      Hash#[]=
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.21</td>
+                   <td>0.15</td>
+                   <td>0.00</td>
+                   <td>0.06</td>
+                   <td>199558/2677167</td>
+                   <td class="method_name"><a href="#Array_hash_70170991451940">Array#hash</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/1001002</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000/1001002</td>
+                   <td class="method_name"><a href="#Grid_file_split_70170991451940">Grid#file_split</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=31" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:31">31</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.19</td>
+                   <td>0.19</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/1001002</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>1.49%</td>
+                 <td>1.49%</td>
+                 <td>0.19</td>
+                 <td>0.19</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1001002</td>
+                 <td class="method_name">
+                   <a name="Array_[]_70170991451940">
+                      Array#[]
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/1000000</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>1.42%</td>
+                 <td>1.42%</td>
+                 <td>0.18</td>
+                 <td>0.18</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1000000</td>
+                 <td class="method_name">
+                   <a name="String_to_s_70170991451940">
+                      String#to_s
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>199558/199558</td>
+                   <td class="method_name"><a href="#Class_new_70170991451940">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>1.02%</td>
+                 <td>1.02%</td>
+                 <td>0.13</td>
+                 <td>0.13</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>199558</td>
+                 <td class="method_name">
+                   <a name="Point_initialize_70170991451940">
+                      Point#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=5" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:5">5</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>121861/600177</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.09</td>
+                   <td>0.09</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>478316/600177</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=43" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:43">43</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.90%</td>
+                 <td>0.90%</td>
+                 <td>0.11</td>
+                 <td>0.11</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>600177</td>
+                 <td class="method_name">
+                   <a name="Fixnum_+_70170991451940">
+                      Fixnum#+
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=49" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:49">49</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.34%</td>
+                 <td>0.34%</td>
+                 <td>0.04</td>
+                 <td>0.04</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="_Class__IO__readlines_70170991451940">
+                      &lt;Class::IO&gt;#readlines
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/121862</td>
+                   <td class="method_name"><a href="#IO_puts_70170991451940">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>121861/121862</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.30%</td>
+                 <td>0.30%</td>
+                 <td>0.04</td>
+                 <td>0.04</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>121862</td>
+                 <td class="method_name">
+                   <a name="Fixnum_to_s_70170991451940">
+                      Fixnum#to_s
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2000/2002</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/2002</td>
+                   <td class="method_name"><a href="#Grid_create_grid_70170991451940">Grid#create_grid</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=21" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:21">21</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>9.15</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>9.15</td>
+                   <td>1/2002</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=56" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:56">56</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>99.64%</td>
+                 <td>0.01%</td>
+                 <td>12.53</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>12.52</td>
+                 <td>2002</td>
+                 <td class="method_name">
+                   <a name="Range_each_70170991451940">
+                     *Range#each
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>4.83</td>
+                   <td>0.40</td>
+                   <td>0.00</td>
+                   <td>4.43</td>
+                   <td>121861/280261</td>
+                   <td class="method_name"><a href="#Object_set_line_and_search_and_set_neighbours_70170991451940">Object#set_line_and_search_and_set_neighbours</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.06</td>
+                   <td>0.52</td>
+                   <td>0.00</td>
+                   <td>2.54</td>
+                   <td>1199558/2477609</td>
+                   <td class="method_name"><a href="#Grid_get_70170991451940">Grid#get</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.99</td>
+                   <td>0.54</td>
+                   <td>0.00</td>
+                   <td>0.45</td>
+                   <td>1000000/1000000</td>
+                   <td class="method_name"><a href="#Grid_file_split_70170991451940">Grid#file_split</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.48</td>
+                   <td>0.30</td>
+                   <td>0.00</td>
+                   <td>0.18</td>
+                   <td>1000000/1798232</td>
+                   <td class="method_name"><a href="#BasicObject_!__70170991451940">BasicObject#!=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.42</td>
+                   <td>0.21</td>
+                   <td>0.00</td>
+                   <td>0.21</td>
+                   <td>199558/200558</td>
+                   <td class="method_name"><a href="#Hash_[]__70170991451940">Hash#[]=</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.23</td>
+                   <td>0.23</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1199558/1479819</td>
+                   <td class="method_name"><a href="#String____70170991451940">String#==</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.19</td>
+                   <td>0.19</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/1001002</td>
+                   <td class="method_name"><a href="#Array_[]_70170991451940">Array#[]</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/1000000</td>
+                   <td class="method_name"><a href="#String_to_s_70170991451940">String#to_s</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.18</td>
+                   <td>0.18</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1000000/1478317</td>
+                   <td class="method_name"><a href="#Fixnum_-_70170991451940">Fixnum#-</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>121861/121862</td>
+                   <td class="method_name"><a href="#Fixnum_to_s_70170991451940">Fixnum#to_s</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>121861/600177</td>
+                   <td class="method_name"><a href="#Fixnum_+_70170991451940">Fixnum#+</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>199558/199560</td>
+                   <td class="method_name"><a href="#Class_new_70170991451940">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2000/2002</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1001/1001</td>
+                   <td class="method_name"><a href="#Array_map!_70170991451940">Array#map!</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.01%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1001</td>
+                 <td class="method_name">
+                   <a name="String_chomp_70170991451940">
+                      String#chomp
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=50" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:50">50</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_map!_70170991451940">
+                      Array#map!
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1001/1001</td>
+                   <td class="method_name"><a href="#String_chomp_70170991451940">String#chomp</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>12.57</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>12.57</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Global_[No method]_70170991451940">
+                      Global#[No method]
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=2" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:2">2</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>12.57</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>12.57</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=68" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:68">68</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Kernel_puts_70170991451940">Kernel#puts</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=68" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:68">68</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Module_attr_accessor_70170991451940">Module#attr_accessor</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=12" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:12">12</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Class_inherited_70170991451940">Class#inherited</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=11" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:11">11</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>7/17</td>
+                   <td class="method_name"><a href="#Module_method_added_70170991451940">Module#method_added</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=48" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:48">48</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="IO_set_encoding_70170991451940">
+                      IO#set_encoding
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Global_[No method]_70170991451940">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=12" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:12">12</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Module_attr_accessor_70170991451940">
+                      Module#attr_accessor
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/17</td>
+                   <td class="method_name"><a href="#Module_method_added_70170991451940">Module#method_added</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>12.57</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>12.57</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Global_[No method]_70170991451940">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=68" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:68">68</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>12.57</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>12.57</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Object_contiguous_chain_70170991451940">
+                      Object#contiguous_chain
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=48" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:48">48</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>9.15</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>9.15</td>
+                   <td>1/2002</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=56" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/199560</td>
+                   <td class="method_name"><a href="#Class_new_70170991451940">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=53" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:53">53</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.04</td>
+                   <td>0.04</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__IO__readlines_70170991451940">&lt;Class::IO&gt;#readlines</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=49" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:49">49</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_map!_70170991451940">Array#map!</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=50" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:50">50</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#String_to_i_70170991451940">String#to_i</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1478317</td>
+                   <td class="method_name"><a href="#Fixnum_-_70170991451940">Fixnum#-</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=66" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:66">66</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/1001002</td>
+                   <td class="method_name"><a href="#Array_[]_70170991451940">Array#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#String_split_70170991451940">String#split</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_last_70170991451940">Array#last</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_first_70170991451940">Array#first</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=51" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:51">51</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_puts_70170991451940">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="IO_write_70170991451940">
+                      IO#write
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Kernel_puts_70170991451940">Kernel#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="IO_puts_70170991451940">
+                      IO#puts
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_write_70170991451940">IO#write</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/121862</td>
+                   <td class="method_name"><a href="#Fixnum_to_s_70170991451940">Fixnum#to_s</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Class_new_70170991451940">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>26.88%</td>
+                 <td>0.00%</td>
+                 <td>3.38</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3.38</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Grid_initialize_70170991451940">
+                      Grid#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=14" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:14">14</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Grid_create_grid_70170991451940">Grid#create_grid</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=18" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:18">18</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Integer_to_i_70170991451940">Integer#to_i</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=16" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:16">16</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/199560</td>
+                   <td class="method_name"><a href="#Class_new_70170991451940">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=17" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:17">17</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Global_[No method]_70170991451940">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=68" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:68">68</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Kernel_puts_70170991451940">
+                      Kernel#puts
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#IO_puts_70170991451940">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>199558/199560</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/199560</td>
+                   <td class="method_name"><a href="#Grid_initialize_70170991451940">Grid#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=17" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:17">17</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/199560</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=53" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:53">53</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>26.88%</td>
+                 <td>0.00%</td>
+                 <td>3.38</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3.38</td>
+                 <td>199560</td>
+                 <td class="method_name">
+                   <a name="Class_new_70170991451940">
+                     *Class#new
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Grid_initialize_70170991451940">Grid#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.13</td>
+                   <td>0.13</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>199558/199558</td>
+                   <td class="method_name"><a href="#Point_initialize_70170991451940">Point#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Hash_initialize_70170991451940">Hash#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Grid_initialize_70170991451940">Grid#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=18" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:18">18</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>26.88%</td>
+                 <td>0.00%</td>
+                 <td>3.38</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3.38</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Grid_create_grid_70170991451940">
+                      Grid#create_grid
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=20" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:20">20</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>3.38</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3.38</td>
+                   <td>1/2002</td>
+                   <td class="method_name"><a href="#Range_each_70170991451940">Range#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=21" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:21">21</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="String_to_i_70170991451940">
+                      String#to_i
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="String_split_70170991451940">
+                      String#split
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=52" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:52">52</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_last_70170991451940">
+                      Array#last
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>7/17</td>
+                   <td class="method_name"><a href="#Global_[No method]_70170991451940">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=48" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:48">48</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>10/17</td>
+                   <td class="method_name"><a href="#Module_attr_accessor_70170991451940">Module#attr_accessor</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>17</td>
+                 <td class="method_name">
+                   <a name="Module_method_added_70170991451940">
+                      Module#method_added
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Object_contiguous_chain_70170991451940">Object#contiguous_chain</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=51" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:51">51</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_first_70170991451940">
+                      Array#first
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Class_new_70170991451940">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Hash_initialize_70170991451940">
+                      Hash#initialize
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Grid_initialize_70170991451940">Grid#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=16" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:16">16</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Integer_to_i_70170991451940">
+                      Integer#to_i
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#Global_[No method]_70170991451940">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb&line=11" title="/Users/sanderschepens/ruby/reddit_challenges/4.contiguous_chain/cont_chain.rb:11">11</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="Class_inherited_70170991451940">
+                      Class#inherited
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+
+  </body>
+</html>

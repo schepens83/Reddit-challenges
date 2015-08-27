@@ -1,0 +1,43 @@
+ruby_prof 0.15.8
+Usage: ruby-prof [options] <script.rb> [--] [profiled-script-command-line-options]
+
+Options:
+    -p, --printer=printer            Select a printer:
+                                       flat - Prints a flat profile as text (default).
+                                       flat_with_line_numbers - same as flat, with line numbers.
+                                       graph - Prints a graph profile as text.
+                                       graph_html - Prints a graph profile as html.
+                                       call_tree - format for KCacheGrind
+                                       call_stack - prints a HTML visualization of the call tree
+                                       dot - Prints a graph profile as a dot file
+                                       multi - Creates several reports in output directory
+    -m, --min_percent=min_percent    The minimum percent a method must take before 
+                                       being included in output reports.
+                                       this option is not supported for call tree.
+    -f, --file=path                  Output results to a file instead of standard out.
+        --mode=measure_mode          Select what ruby-prof should measure:
+                                       process - Process time (default).
+                                       wall - Wall time.
+                                       cpu - CPU time (Pentium and PowerPCs only).
+                                       allocations - Object allocations (requires patched Ruby interpreter).
+                                       memory - Allocated memory in KB (requires patched Ruby interpreter).
+                                       gc_runs - Number of garbage collections (requires patched Ruby interpreter).
+                                       gc_time - Time spent in garbage collection (requires patched Ruby interpreter).
+    -s, --sort=sort_mode             Select how ruby-prof results should be sorted:
+                                       total - Total time
+                                       self - Self time
+                                       wait - Wait time
+                                       child - Child time
+        --replace-progname           Replace $0 when loading the .rb files.
+        --specialized-instruction    Turn on specified instruction.
+    -v                               Show version, set $VERBOSE to true, profile script if option given
+    -d                               Set $DEBUG to true
+    -R, --require-noprof lib         require a specific library (not profiled)
+    -E, --eval-noprof code           execute the ruby statements (not profiled)
+    -x, --exclude regexp             exclude methods by regexp (see method elimination)
+    -X, --exclude-file file          exclude methods by regexp listed in file (see method elimination)
+        --exclude-common-cycles      make common iterators like Integer#times appear inlined
+        --exclude-common-callbacks   make common callbacks invocations like Integer#times appear inlined so you can see call origins in graph
+    -h, --help                       Show help message
+        --version                    Show version 0.15.8
+invalid argument: -p graph_view

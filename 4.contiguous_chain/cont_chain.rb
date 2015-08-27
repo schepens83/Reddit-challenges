@@ -1,3 +1,4 @@
+#note to self: use ruby-prof to profile the code. (see where it spends the most time.)
 class Point
 	attr_accessor :x, :y, :line
 
@@ -22,11 +23,12 @@ class Grid
 				@grd[[x,y]] = Point.new(x,y) if file_split(y)[x-1].to_s == "x"  
 			end
 		end
+
 	end
 	#split the file string into chars. caching used for speed.
 	def file_split(y)
 		@file_split_cache ||= {} #create empty hash if variable does not exist yet
-		@file_split_cache[y] ||= $file[y].scan(//)
+		@file_split_cache[y] ||= $file[y].scan(/./)
 	end
 	def get(x,y)
 		@grd[[x,y]]
@@ -49,7 +51,6 @@ def contiguous_chain(path)
 	y = $file[0].split(' ').first.to_i
 	x = $file[0].split(' ').last.to_i
 	$g = Grid.new(x,y)
-	#$g.create_grid
 	
 	i = 1
 	(1..$g.height).each do |y|
@@ -64,5 +65,5 @@ def contiguous_chain(path)
 	end
 	i - 1
 end
-puts contiguous_chain("input/10.txt")
+puts contiguous_chain("input/20.txt")
 
