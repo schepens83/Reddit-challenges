@@ -1,0 +1,394 @@
+events: wall_time
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=IO#write
+0 34
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Fixnum#inspect
+0 3
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#inspect
+0 4
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Hash#to_s
+0 8
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#inspect
+calls=5 41
+41 4
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#inspect
+calls=5 41
+41 3
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=IO#puts
+0 9
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Hash#to_s
+calls=1 41
+41 15
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=IO#write
+calls=2 41
+41 34
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Kernel#puts
+0 6
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=IO#puts
+calls=1 41
+41 58
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#length
+0 31333
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Fixnum#+
+0 2478
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#==
+0 73642
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=BasicObject#!=
+0 123405
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#==
+calls=332352 21
+21 73642
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#to_s
+0 72286
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Fixnum#>
+0 106144
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#length
+0 105716
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#+
+0 259480
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Fixnum#==
+0 465858
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Fixnum#%
+0 445154
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Hash#each
+0 1293669
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#%
+calls=2313365 18
+18 445154
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#==
+calls=2313365 18
+18 434460
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#+
+calls=403709 18
+18 259480
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+fn=Reverse_fizz_buzz#fizz_buzz?
+13 283318
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Range#each
+calls=322942 15
+15 3930956
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#length
+calls=1 28
+28 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#==
+calls=1 28
+28 2
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Enumerable#each_with_index
+0 180382
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#each
+calls=322942 36
+36 1610569
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Hash#keys
+0 223305
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#each
+0 270858
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Hash#keys
+calls=322942 36
+36 223305
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Enumerable#each_with_index
+calls=322942 36
+36 1790951
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+cfn=Reverse_fizz_buzz#fizz_buzz?
+calls=322942 39
+39 4214277
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#[]
+calls=1614710 37
+37 313733
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Hash#[]=
+calls=1614710 37
+37 398973
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Enumerator#each
+0 5
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#repeated_permutation
+calls=1 35
+35 1225151
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#repeated_permutation
+0 1225155
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Hash#length
+0 2
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+fn=Reverse_fizz_buzz#start_first_solution
+34 5
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Enumerable#to_a
+calls=2 35
+35 1225160
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Hash#length
+calls=1 35
+35 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#repeated_permutation
+calls=1 35
+35 4
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#each
+calls=1 35
+35 6499391
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Kernel#puts
+calls=1 41
+41 64
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Hash#[]=
+0 398974
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#each_char
+0 8
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Hash#[]=
+calls=5 6
+6 1
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#upto
+0 4
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Range#each
+0 883649
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#upto
+calls=1 6
+6 4
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Hash#each
+calls=462673 17
+17 2432763
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#length
+calls=462673 20
+20 105716
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#>
+calls=462673 20
+20 106144
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#[]
+calls=332352 21
+21 68151
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#to_s
+calls=332352 21
+21 72286
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=BasicObject#!=
+calls=332352 21
+21 197046
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#+
+calls=9411 24
+24 2478
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#length
+calls=139732 26
+26 31331
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Fixnum#==
+calls=139732 26
+26 31395
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Enumerable#to_a
+0 4
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Range#each
+calls=1 6
+6 6
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Range#each
+calls=1 35
+35 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Enumerator#each
+calls=1 35
+35 1225156
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#<=>
+0 2
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#[]
+0 381887
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#sort
+0 3
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#uniq
+0 3
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#to_a
+0 1
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=String#chars
+0 3
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Array#join
+0 5
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+fn=Reverse_fizz_buzz#last_letters
+10 6
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#join
+calls=2 11
+11 4
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#chars
+calls=1 11
+11 3
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#to_a
+calls=1 11
+11 1
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#uniq
+calls=1 11
+11 3
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#sort
+calls=1 11
+11 3
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#[]
+calls=1 11
+11 2
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+fn=Reverse_fizz_buzz#initialize
+3 13
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+cfn=Reverse_fizz_buzz#last_letters
+calls=1 6
+6 22
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#<=>
+calls=1 6
+6 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Enumerable#to_a
+calls=1 6
+6 8
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Array#join
+calls=1 6
+6 1
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=String#each_char
+calls=1 6
+6 9
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Class#new
+0 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+cfn=Reverse_fizz_buzz#initialize
+calls=1 62
+62 55
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Module#method_added
+0 2
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=Class#inherited
+0 2
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+fn=Global#[No method]
+1 64
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Class#inherited
+calls=1 1
+1 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Module#method_added
+calls=5 43
+43 2
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+cfn=Class#new
+calls=1 62
+62 57
+cfl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/reverse-fizz.rb
+cfn=Reverse_fizz_buzz#start_first_solution
+calls=1 62
+62 7724626
+
+fl=/Users/sanderschepens/ruby/reddit_challenges/5.reverse_fizz/ruby_runtime
+fn=IO#set_encoding
+0 25
+
