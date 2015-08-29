@@ -1,0 +1,5 @@
+input/10.txt -> 80020
+input/20.txt -> 121861
+input/30.txt -> 128118
+input/40.txt -> 106133
+input/50.txt -> 66011
